@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131673640-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-131673640-1');
+    </script>
+    <meta name="description" content="Transform any place into a Escape-Game 🕵️‍">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="theme-color" content="#51bd91">
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon16x16.png">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>The Game 🕵️</title>
+    <style type="text/css">
+        ::-moz-selection { background: #51bd91 }
+        ::selection { background: #51bd91; }
+
+        html, body {
+          height: 100vh;
+          width: 100%;
+          margin: 0;
+          font-family: 'BlinkMacSystemFont', sans-serif;
+          background: linear-gradient(15deg, rgba(29,114,214,0.3897934173669467) 0%, rgba(29,114,214,0) 78%); no-repeat center center fixed;
+          background-size: cover;
+        }
+
+        .text-area a {
+          border-bottom: none;
+          text-decoration: none;
+          color: white;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .text-area a:hover {
+          text-decoration: none;
+          color: #51bd91;
+          text-align: center;
+          margin: auto;
+        }
+
+        .text-area p {
+          color: #293e50;
+          font-size: 120%;
+          text-align: left;
+          line-height: 1.4;
+        }
+
+        .media-area img {
+          text-align: right;
+          width: 50vh;
+          margin-top: 5vh;
+          margin-left: 30vh;
+        }
+
+        .media-area:hover .overlay {
+          width: 100%;
+          left: 0;
+          transform: translate(2.2%);
+        }
+
+        .overlay {
+          position: absolute;
+          bottom: 0;
+          left: 100%;
+          right: 0;
+          overflow: hidden;
+          width: 0;
+          height: 100%;
+          transition: .8s ease;
+        }
+
+        ul {
+          list-style: none;
+        }
+
+        .box-area {
+          text-align: center;
+          width: 800px;
+          height: auto;
+          padding: 10px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 50px;
+          background: #293f50;
+          border-radius: 2px;
+          box-shadow: 0px 10px 20px #6655ab;
+          font-size: 150%;
+        }
+
+        @media (max-width : 600px) {
+          .text-area {
+            position: absolute;
+            transform: none;
+            left: 0;
+            top: 40px;
+            font-size: 90%;
+            padding: 10px;
+            width: auto;
+            margin: 10px 20px;
+          }
+          .box-area {
+            position: fixed;
+            left: 0;
+            top: 0;
+            margin-left: -10px;
+            transform: none;
+            font-size: 90%;
+            margin-bottom: 20px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 2px 2px 10px #6655ab;
+          }
+
+          ul {
+            margin-left: -40px;
+          }
+
+          button {
+            margin-bottom: 0px;
+          }
+
+
+        }
+
+        li {
+          margin-bottom: 10px;
+        }
+        .smartphone {
+          display: none;
+        }
+
+        button {
+          background-color: #51bd91;
+          color: white;
+          font-size: 100%;
+          padding: 10px 20px;
+          border-radius: 8px;
+          text-decoration: none;
+          border: 10px;
+          cursor: pointer;
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+          margin: auto;
+          text-align: center;
+          font-weight: ;
+          transition: all 0.3s ease 0s;
+          cursor: pointer;
+        }
+
+        button a {
+          color: white;
+        }
+
+        button:hover {
+          background-color: #293e50;
+          box-shadow: 0px 15px 20px rgb(41, 62, 80, 0.4);
+        }
+
+        button:hover a {
+          color: #51bd91;
+        }
+
+        h1 {
+          color: #293e50;
+          margin-top: 20vh;
+          font-weight: bold;
+        }
+
+        .outer {
+          position: relative;
+          width: 100%;
+          height: 100%;
+        }
+
+        .center {
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+        }
+
+        .logo {
+          margin-top: 10vh;
+          width: 5vh;
+        }
+
+        h3 {
+          padding-top: 5px;
+          margin-top: 10vh;
+          color: #293e50;
+          float: left;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm text-area">
+          <img class="logo" src="./favicon16x16.png">
+          <h3>The Game</h3>
+          <h1>Transform any place into an <span style="color: #51bd91">Escape Game</span> !</h1>
+          <br>
+          <p>The easiest solution to create an Escape-Game app in minutes 🕵️</p>
+          <p>No coding required, only your creativity. Create your customized game in a few steps and get your own app to play with.</p>
+          <br>
+          <button> <a href="https://app.the-game.website">Create my Game 🗝️</a></button>
+        </div>
+        <div class="col-sm media-area">
+          <img src="./the-game-1.png" alt="the digital escape game app" class="initial">
+          <div class="overlay">
+            <img src="./the-game-2.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
