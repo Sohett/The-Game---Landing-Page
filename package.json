@@ -1,0 +1,19 @@
+{
+  "name": "theGameLandingPage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "prod": "aws s3 cp ./ s3://www.the-game.website/ --recursive --profile thomas-sohet",
+    "postprod": "aws cloudfront create-invalidation --distribution-id E3BMLF747R4IZ7 --paths '/*' --profile thomas-sohet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sohett/The-Game---Landing-Page.git"
+  },
+  "author": "Thomas Sohet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sohett/The-Game---Landing-Page/issues"
+  }
+}
